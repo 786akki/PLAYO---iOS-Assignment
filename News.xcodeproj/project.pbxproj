@@ -14,6 +14,10 @@
 		E925207E2869B9290068E204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E925207D2869B9290068E204 /* Assets.xcassets */; };
 		E92520812869B9290068E204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E925207F2869B9290068E204 /* LaunchScreen.storyboard */; };
 		E92520892869C4A50068E204 /* newsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92520882869C4A50068E204 /* newsCell.swift */; };
+		E9CBBFF7286A987C001C55FC /* newsStructFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBBFF6286A987C001C55FC /* newsStructFile.swift */; };
+		E9CBBFF9286A9938001C55FC /* newsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBBFF8286A9938001C55FC /* newsData.swift */; };
+		E9CBBFFC286A9A40001C55FC /* NewsContent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CBBFFB286A9A40001C55FC /* NewsContent.storyboard */; };
+		E9CBBFFE286A9A85001C55FC /* NewsContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBBFFD286A9A85001C55FC /* NewsContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		E92520802869B9290068E204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E92520822869B9290068E204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E92520882869C4A50068E204 /* newsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsCell.swift; sourceTree = "<group>"; };
+		E9CBBFF6286A987C001C55FC /* newsStructFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsStructFile.swift; sourceTree = "<group>"; };
+		E9CBBFF8286A9938001C55FC /* newsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsData.swift; sourceTree = "<group>"; };
+		E9CBBFFB286A9A40001C55FC /* NewsContent.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsContent.storyboard; sourceTree = "<group>"; };
+		E9CBBFFD286A9A85001C55FC /* NewsContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,7 @@
 		E92520942869CB180068E204 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E9CBBFFA286A99D2001C55FC /* NewsDesciption */,
 				E92520972869CDD10068E204 /* HomePage */,
 			);
 			path = View;
@@ -111,6 +120,8 @@
 		E92520952869CB210068E204 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E9CBBFF6286A987C001C55FC /* newsStructFile.swift */,
+				E9CBBFF8286A9938001C55FC /* newsData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +143,15 @@
 				E925207A2869B9280068E204 /* Main.storyboard */,
 			);
 			path = HomePage;
+			sourceTree = "<group>";
+		};
+		E9CBBFFA286A99D2001C55FC /* NewsDesciption */ = {
+			isa = PBXGroup;
+			children = (
+				E9CBBFFB286A9A40001C55FC /* NewsContent.storyboard */,
+				E9CBBFFD286A9A85001C55FC /* NewsContent.swift */,
+			);
+			path = NewsDesciption;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92520812869B9290068E204 /* LaunchScreen.storyboard in Resources */,
+				E9CBBFFC286A9A40001C55FC /* NewsContent.storyboard in Resources */,
 				E925207E2869B9290068E204 /* Assets.xcassets in Resources */,
 				E925207C2869B9280068E204 /* Main.storyboard in Resources */,
 			);
@@ -207,7 +228,10 @@
 			files = (
 				E92520792869B9280068E204 /* ViewController.swift in Sources */,
 				E92520752869B9280068E204 /* AppDelegate.swift in Sources */,
+				E9CBBFF7286A987C001C55FC /* newsStructFile.swift in Sources */,
+				E9CBBFFE286A9A85001C55FC /* NewsContent.swift in Sources */,
 				E92520892869C4A50068E204 /* newsCell.swift in Sources */,
+				E9CBBFF9286A9938001C55FC /* newsData.swift in Sources */,
 				E92520772869B9280068E204 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
