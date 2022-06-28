@@ -119,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				E925207A2869B9280068E204 /* Main.storyboard */,
+				E92520882869C4A50068E204 /* newsCell.swift */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -135,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				E92520782869B9280068E204 /* ViewController.swift */,
-				E92520882869C4A50068E204 /* newsCell.swift */,
 				E9CBBFFD286A9A85001C55FC /* NewsContent.swift */,
 			);
 			path = Controller;

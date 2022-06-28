@@ -7,9 +7,9 @@
 
 import Foundation
 struct newsStructFile : Codable{
-    let author : String?
-    let title : String?
-    let urlToImage : String?
-    let description : String?
+    var author : String?
+    var title : String?
+    var urlToImage : String?
+    var description : String?
 }
 

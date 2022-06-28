@@ -7,6 +7,6 @@
 
 import Foundation
 struct newsData : Codable{
-    let status : String?
-    let articles : [newsStructFile]
+    var status : String?
+    var articles : [newsStructFile]
 }
