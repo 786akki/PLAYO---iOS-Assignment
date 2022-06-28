@@ -23,7 +23,7 @@ class NewsContent: UIViewController {
             imageView.contentMode = .scaleToFill
         }
         else {
-            //
+            imageView.image = UIImage(named: "Group")
         }
         newsDescriptionLabel.text = newsContent.description
         // Do any additional setup after loading the view.
