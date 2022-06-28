@@ -15,6 +15,7 @@ class NewsContent: UIViewController {
     var newsContent:newsStructFile = newsStructFile(author: "", title: "", urlToImage: "", description: "")
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         tileLabel.text = newsContent.title
         if newsContent.urlToImage != nil{
             let url = URL(string: newsContent.urlToImage!)
@@ -27,6 +28,7 @@ class NewsContent: UIViewController {
         newsDescriptionLabel.text = newsContent.description
         // Do any additional setup after loading the view.
     }
+   
     
 
 

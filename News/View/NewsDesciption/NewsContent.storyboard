@@ -17,22 +17,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQZ-b7-bDq">
-                                <rect key="frame" x="20" y="148" width="374" height="135"/>
+                                <rect key="frame" x="20" y="148" width="374" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="135" id="iMp-d5-JXD"/>
+                                    <constraint firstAttribute="height" constant="100" id="iMp-d5-JXD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AgH-74-nmu">
-                                <rect key="frame" x="20" y="303" width="374" height="100"/>
+                                <rect key="frame" x="20" y="268" width="374" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="TW4-Mz-A8i"/>
+                                    <constraint firstAttribute="height" constant="150" id="TW4-Mz-A8i"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDi-gT-NwH">
-                                <rect key="frame" x="20" y="423" width="374" height="439"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDi-gT-NwH">
+                                <rect key="frame" x="20" y="438" width="374" height="424"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
